@@ -25,6 +25,7 @@ no Moose;
 #--------------
 
 use Net::Abuse::Utils qw( :all );
+use Data::Printer;
 
 sub _build_dnsbl {
     my $self = shift;
@@ -38,28 +39,25 @@ sub _build_dnsbl {
 }
 
 sub check_spam {
-    my ($self, @dnsbl_list) = @_;
-    my %ret;
-
-    foreach my $dnsbl ( @dnsbl_list ) {
-        my $ret = get_dnsbl_listing( $self->ip->addr(), $dnsbl );
-
-        if ( defined( $ret ) ) {
-            $ret{$dnsbl} = $ret;
-        }
-
-    }
-
-    return %ret;
+    my ($self, $dnsbl) = @_;
+    my $get_dnsbl_listing_result = get_dnsbl_listing( $self->ip->addr(), $dnsbl );
+    return $get_dnsbl_listing_result;
 }
 
 sub run {
     my $self = shift;
     my %return;
 
+    foreach my $dnsbl ( @{ $self->dnsbl } ) {
+        my $result = $self->check_spam( $dnsbl );
 
-    %{ $return{$self->ip->addr()} } = $self->check_spam( @{ $self->dnsbl } );
+        if( defined( $result ) ) {
+            $return{$self->ip->addr()}{$dnsbl} = $result;
+        }
+    }
+
     return %return;
+
 }
 
 1;
