@@ -1,0 +1,238 @@
+2013-02-18T21:35:46 [debug] debug message at ./LogDispatchFile.pl line 42.
+2013-02-18T21:35:46 [info] info message at ./LogDispatchFile.pl line 43.
+2013-02-18T21:35:46 [notice] notice message at ./LogDispatchFile.pl line 44.
+2013-02-18T21:35:46 [emergency] emergency message at ./LogDispatchFile.pl line 45.
+2013-02-18T21:35:48 [debug] debug message at ./LogDispatchFile.pl line 42.
+2013-02-18T21:35:48 [info] info message at ./LogDispatchFile.pl line 43.
+2013-02-18T21:35:48 [notice] notice message at ./LogDispatchFile.pl line 44.
+2013-02-18T21:35:48 [emergency] emergency message at ./LogDispatchFile.pl line 45.
+[%M] 2013-02-18T21:45:25 [debug] debug message at ./LogDispatchFile.pl line 42.
+[%M] 2013-02-18T21:45:25 [info] info message at ./LogDispatchFile.pl line 43.
+[%M] 2013-02-18T21:45:25 [notice] notice message at ./LogDispatchFile.pl line 44.
+[%M] 2013-02-18T21:45:25 [emergency] emergency message at ./LogDispatchFile.pl line 45.
+[2013] 0002-18-21T45:38:00 [debug message] ./LogDispatchFile.pl at 42 line 0.
+[2013] 0002-18-21T45:38:-1 [info message] ./LogDispatchFile.pl at 43 line 0.
+[2013] 0002-18-21T45:38:00 [notice message] ./LogDispatchFile.pl at 44 line 0.
+[2013] 0002-18-21T45:38:00 [emergency message] ./LogDispatchFile.pl at 45 line 0.
+[%m] 2013-02-18T21:45:56 [debug] debug message at ./LogDispatchFile.pl line 42.
+[%m] 2013-02-18T21:45:56 [info] info message at ./LogDispatchFile.pl line 43.
+[%m] 2013-02-18T21:45:56 [notice] notice message at ./LogDispatchFile.pl line 44.
+[%m] 2013-02-18T21:45:56 [emergency] emergency message at ./LogDispatchFile.pl line 45.
+% [%m] 04d-2013-02T18:21:46 [25] debug at debug message line 0.
+% [%m] 04d-2013-02T18:21:46 [25] info at info message line 0.
+% [%m] 04d-2013-02T18:21:46 [25] notice at notice message line 0.
+% [%m] 04d-2013-02T18:21:46 [25] emergency at emergency message line 0.
+[2013] 2 at 18 line 22.
+[2013] 2 at 18 line 22.
+[2013] 2 at 18 line 22.
+[2013] 2 at 18 line 22.
+[11111011101] [2] 18 at 22 line 31.
+[11111011101] [2] 18 at 22 line 31.
+[11111011101] [2] 18 at 22 line 31.
+[11111011101] [2] 18 at 22 line 31.
+11111011101[2] 18 at 22 line 31.
+11111011101[2] 18 at 22 line 31.
+11111011101[2] 18 at 22 line 31.
+11111011101[2] 18 at 22 line 31.
+[11111011101][2] 18 at 22 line 32.
+[11111011101][2] 18 at 22 line 32.
+[11111011101][2] 18 at 22 line 32.
+[11111011101][2] 18 at 22 line 32.
+[11111011101 2] 18 at 22 line 32.
+[11111011101 2] 18 at 22 line 32.
+[11111011101 2] 18 at 22 line 32.
+[11111011101 2] 18 at 22 line 32.
+[2013] 2 at 18 line 22.
+[2013] 2 at 18 line 22.
+[2013] 2 at 18 line 22.
+[2013] 2 at 18 line 22.
+[11111011101] 2 at 18 line 22.
+[11111011101] 2 at 18 line 22.
+[11111011101] 2 at 18 line 22.
+[11111011101] 2 at 18 line 22.
+[11111011101] 2 at 18 line 22.
+[11111011101] 2 at 18 line 22.
+[11111011101] 2 at 18 line 22.
+[11111011101] 2 at 18 line 22.
+11111011101 2 at 18 line 22.
+11111011101 2 at 18 line 22.
+11111011101 2 at 18 line 22.
+11111011101 2 at 18 line 22.
+2013 2 at 18 line 23.
+2013 2 at 18 line 23.
+2013 2 at 18 line 23.
+2013 2 at 18 line 23.
+2013 [2] at 18 line 23.
+2013 [2] at 18 line 23.
+2013 [2] at 18 line 23.
+2013 [2] at 18 line 23.
+2013-02 at 18 line 23.
+2013-02 at 18 line 23.
+2013-02 at 18 line 23.
+2013-02 at 18 line 23.
+2013-2 at 18 line 23.
+2013-2 at 18 line 23.
+2013-2 at 18 line 23.
+2013-2 at 18 line 23.
+11111011101-2 at 18 line 23.
+11111011101-2 at 18 line 23.
+11111011101-2 at 18 line 23.
+11111011101-2 at 18 line 23.
+11111011101 at 2 line 18.
+11111011101 at 2 line 18.
+11111011101 at 2 line 18.
+11111011101 at 2 line 18.
+d at 2013 line 2.
+d at 2013 line 2.
+d at 2013 line 2.
+d at 2013 line 2.
+2013 at 2 line 18.
+2013 at 2 line 18.
+2013 at 2 line 18.
+2013 at 2 line 18.
+2013 Jan at 2 line 18.
+2013 Jan at 2 line 18.
+2013 Jan at 2 line 18.
+2013 Jan at 2 line 18.
+Jan 2013 02T18:23:19 at 25 line 0.
+Jan 2013 02T18:23:19 at 25 line -1.
+Jan 2013 02T18:23:19 at 25 line 0.
+Jan 2013 02T18:23:19 at 25 line 0.
+Jan 2013 02:18:23 at 19 line 35.
+Jan 2013 02:18:23 at 19 line 35.
+Jan 2013 02:18:23 at 19 line 35.
+Jan 2013 02:18:23 at 19 line 35.
+2013-02-18T23:20:01 [debug] debug message at ./LogDispatchFile.pl line 46.
+2013-02-18T23:20:01 [info] info message at ./LogDispatchFile.pl line 47.
+2013-02-18T23:20:01 [notice] notice message at ./LogDispatchFile.pl line 48.
+2013-02-18T23:20:01 [emergency] emergency message at ./LogDispatchFile.pl line 49.
+Jan 2013 02:18:23 [20] at 28 line 0.
+Jan 2013 02:18:23 [20] at 28 line -1.
+Jan 2013 02:18:23 [20] at 28 line 0.
+Jan 2013 02:18:23 [20] at 28 line 0.
+Jan 2013 02:18:23 20 at 47 line 0.
+Jan 2013 02:18:23 20 at 47 line -1.
+Jan 2013 02:18:23 20 at 47 line 0.
+Jan 2013 02:18:23 20 at 47 line 0.
+Jan 2013 02:18:23 [21] 18 at debug line 0.
+Jan 2013 02:18:23 [21] 18 at info line -1.
+Jan 2013 02:18:23 [21] 18 at notice line 0.
+Jan 2013 02:18:23 [21] 18 at emergency line 0.
+Jan 2013 02:18:23 [22] 23 at debug line 0.
+Jan 2013 02:18:23 [22] 23 at info line -1.
+Jan 2013 02:18:23 [22] 23 at notice line 0.
+Jan 2013 02:18:23 [22] 23 at emergency line 0.
+Jan 2013 02d 02:18:23 [29] 0 at debug line 0.
+Jan 2013 02d 02:18:23 [29] 0 at info line -1.
+Jan 2013 02d 02:18:23 [29] 0 at notice line 0.
+Jan 2013 02d 02:18:23 [29] 0 at emergency line 0.
+Jan 2013 02 02:18:23 [29] 11 at debug line 0.
+Jan 2013 02 02:18:23 [29] 11 at info line -1.
+Jan 2013 02 02:18:23 [29] 11 at notice line 0.
+Jan 2013 02 02:18:23 [29] 11 at emergency line 0.
+Jan 113 2013:02:18 [23] 31 at 32 line 0.
+Jan 113 2013:02:18 [23] 31 at 32 line -1.
+Jan 113 2013:02:18 [23] 31 at 32 line 0.
+Jan 113 2013:02:18 [23] 31 at 32 line 0.
+2013-02-18T23:31:47 [debug] debug message at ./LogDispatchFile.pl line 49.
+2013-02-18T23:31:47 [info] info message at ./LogDispatchFile.pl line 50.
+2013-02-18T23:31:47 [notice] notice message at ./LogDispatchFile.pl line 51.
+2013-02-18T23:31:47 [emergency] emergency message at ./LogDispatchFile.pl line 52.
+Jan 113 [2013] 2 at 18 line 23.
+Jan 113 [2013] 2 at 18 line 23.
+Jan 113 [2013] 2 at 18 line 23.
+Jan 113 [2013] 2 at 18 line 23.
+Jan 113 [2013] 2 at 18 line 23.
+Jan 113 [2013] 2 at 18 line 23.
+Jan 113 [2013] 2 at 18 line 23.
+Jan 113 [2013] 2 at 18 line 23.
+Jan [2013] 2 at 18 line 23.
+Jan [2013] 2 at 18 line 23.
+Jan [2013] 2 at 18 line 23.
+Jan [2013] 2 at 18 line 23.
+Jan 2013 [2] 18 at 23 line 34.
+Jan 2013 [2] 18 at 23 line 34.
+Jan 2013 [2] 18 at 23 line 34.
+Jan 2013 [2] 18 at 23 line 34.
+Jan 2013 2 at 18 line 23.
+Jan 2013 2 at 18 line 23.
+Jan 2013 2 at 18 line 23.
+Jan 2013 2 at 18 line 23.
+Jan 2013 2 at 19 line 0.
+Jan 2013 2 at 19 line 0.
+Jan 2013 2 at 19 line 0.
+Jan 2013 2 at 19 line 0.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.
+Jan 2013 at 2 line 19.

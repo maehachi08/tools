@@ -7,6 +7,7 @@ use Getopt::Long;
 # GetOptionsブロックで指定する変数は事前定義しておく
 my $name;
 my $age;
+my $all;
 
 # 引数チェック
 if ($#ARGV == -1) { pod2usage(-verbose => 2) };
@@ -16,10 +17,12 @@ if ($#ARGV == -1) { pod2usage(-verbose => 2) };
 GetOptions (
   'name=s' => \$name,
   'age=i'  => \$age,
+  'all=i',
 ) or pod2usage(-verbose => 2);
 
 printf "Your name is $name\n";
 printf "Your age is $age\n";
+printf "all is $all\n";
 
 __END__
 
