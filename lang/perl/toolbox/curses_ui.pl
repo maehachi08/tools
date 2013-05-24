@@ -28,28 +28,42 @@ sub exit_dialog() {
     exit(0) if $return;
 }
 
+
+# メニューバー
 my $menu = $cui->add(
         'menu','Menubar', 
         -menu => \@menu,
         -fg  => "blue",
 );
 
-my $win1 = $cui->add(
-    'win1', 'Window',
-     -border => 1,
-     -y    => 1,
-     -bfg  => 'red',
+
+
+# ボタン
+my $button_window = $cui->add(
+    'window_id', 'Window'
 );
 
-
-my $texteditor = $win1->add("text", "TextEditor",
-    -text => "Here is some text\n"
-             . "And some more"
+my $buttons = $button_window->add(
+    'mybuttons', 'Buttonbox',
+    -buttons   => [
+        {
+          -label => '< Button 1 >',
+          -value => 1,
+          -shortcut => 1 
+        }, {
+          -label => '< Button 2 >',
+          -value => 2,
+          -shortcut => 2 
+        }
+    ]
 );
 
 
 $cui->set_binding(sub {$menu->focus()}, "\cX");
 $cui->set_binding( \&exit_dialog , "\cQ");
 
-$texteditor->focus();
+$buttons->focus();
 $cui->mainloop();
+
+my $value = $buttons->get();
+printf "$value\n";
