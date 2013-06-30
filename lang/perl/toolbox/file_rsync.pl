@@ -74,6 +74,7 @@ sub finalize_rsync {
 sub stats {
     my @out = @_;
     return unless @out;
+    print YAML::Dump( @out ) if $debug;
 
     my @stats;
     foreach my $item (
