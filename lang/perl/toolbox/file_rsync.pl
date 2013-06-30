@@ -12,6 +12,7 @@ exit 0;
 
 sub main {
     my $stuff = YAML::Load(join '', <DATA> );
+    print YAML::Dump($stuff) if $debug;
 
     push my @backup_names, keys %{ $stuff->{backup} };
     foreach my $backup_name ( @backup_names ) {
@@ -19,7 +20,6 @@ sub main {
         rsync( $stuff, $backup_name );
     }
 
-    print YAML::Dump($stuff) if $debug;
 }
 
 
