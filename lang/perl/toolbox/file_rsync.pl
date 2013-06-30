@@ -55,7 +55,7 @@ sub construct_rsync {
 
 sub finalize_rsync {
     my $rsync = shift;
-    my $stats  = stats( $rsync->out );
+    my $stats = stats( $rsync->out );
     my $error = join ', ', $rsync->err;
 
     my $message;
