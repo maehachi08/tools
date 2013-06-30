@@ -84,7 +84,7 @@ sub stats {
     }
 
     my $speed = $out[-2];
-    my $speed =~ s{.*[ ]([\d.]+[ ]bytes/sec)}{Average speed: $1}sx;
+    $speed =~ s{.*[ ]([\d.]+[ ]bytes/sec)}{Average speed: $1}sx;
     push @stats, $speed if $speed;
 
     chomp @stats;
@@ -107,4 +107,4 @@ backup:
       dest    : /var/backup/app/rails/
       timeout : 180
 
-
+  
