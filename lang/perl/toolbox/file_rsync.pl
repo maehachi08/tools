@@ -36,12 +36,14 @@ sub construct_rsync {
     my $src     = $stuff->{backup}->{$backup_name}->{args}->{src};
     my $dest    = $stuff->{backup}->{$backup_name}->{args}->{dest};
     my $timeout = $stuff->{backup}->{$backup_name}->{args}->{timeout};
+    my $exclude = $stuff->{backup}->{$backup_name}->{args}->{exclude};
 
     my $rsync = File::Rsync->new( {
         src      => $src,
         dest     => $dest,
         bwlimit  => 7680,
         timeout  => $timeout,
+        exclude  => $exclude,
         archive  => 1,
         delete   => 1,
         stats    => 1,
@@ -106,5 +108,4 @@ backup:
       src     : www.maepachi.com:/var/www/rails/infinitewall
       dest    : /var/backup/app/rails/
       timeout : 180
-
-  
+      exclude : [ '.git', '.gitignore' ]
